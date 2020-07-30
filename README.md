@@ -1,9 +1,19 @@
 # DOCS
 
-Step 1: RUN wget https://raw.githubusercontent.com/phannamqt/Vesta_key_filemanage/master/keyfilemanage.sh
+Step 1: Copy file RUN cp /usr/local/vesta/conf/vesta.conf /usr/local/vesta/conf/vesta_bk.conf
 
-Step 2: RUN crontab -e
+Step 2: Edit file backup
 
-Step 3: Add crontab new a line: 58 * * * * ./keyfilemanage.sh
+ - RUN nano /usr/local/vesta/conf/vesta_bk.conf
+ 
+ - Change FILEMANAGER_KEY='' to FILEMANAGER_KEY='ILOVEYOU'
+ 
+ - Save file
+ 
+Step 3: RUN wget https://raw.githubusercontent.com/phannamqt/Vesta_key_filemanage/master/keyfilemanage.sh
 
-Step 4: Close edit crontab (Enter Esc and :qw)
+Step 4: RUN crontab -e
+
+Step 5: Add crontab new a line: 58 * * * * ./keyfilemanage.sh
+
+Step 6: Close edit crontab (Enter Esc and :qw)
