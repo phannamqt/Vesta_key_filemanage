@@ -10,10 +10,10 @@ Step 2: Edit file backup
  
  - Save file
  
-Step 3: RUN wget https://raw.githubusercontent.com/phannamqt/Vesta_key_filemanage/master/keyfilemanage.sh
+Step 3: RUN wget https://raw.githubusercontent.com/phannamqt/Vesta_key_filemanager/master/keyfilemanager.sh
 
 Step 4: RUN crontab -e
 
-Step 5: Add crontab new a line: 58 * * * * ./keyfilemanage.sh
+Step 5: Add crontab new a line: 58 * * * * ./keyfilemanager.sh
 
 Step 6: Close edit crontab (Enter Esc and :qw)
